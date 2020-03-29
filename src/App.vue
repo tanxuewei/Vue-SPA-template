@@ -29,9 +29,8 @@ export default {
       this.$store.commit('increment')
       console.log(this.$store.state.count)
     }
-  }
+  },
 }
-console.log('我是vue')
 </script>
 
 <style lang="less" scoped>

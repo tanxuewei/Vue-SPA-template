@@ -39,6 +39,30 @@ export default {
         }
       ]
     }
+  },
+
+  methods: {
+    getName () {}
+  },
+
+  beforeCreate () {
+    console.log('child beforecreate')
+  },
+
+  created () {
+    console.log('child created')
+  },
+
+  mounted () {
+    console.log('child mounted')
+  },
+
+  beforeUpdate () {
+    console.log('child beforeUpdate')
+  },
+
+  updated () {
+    console.log('child updated')
   }
 }
 </script>

@@ -14,7 +14,7 @@ const router =  new Router({
       component: () => import('@/module/service')
     }, {
       path: '/business',
-      component: () => import('@/module/business')
+      component: () => import('@/module/business/index')
     }, {
       path: '/cart',
       component: () => import('@/module/cart')
